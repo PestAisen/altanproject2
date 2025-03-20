@@ -1,0 +1,69 @@
+body{
+    background-image: url("les_derevia_priroda_84566_2560x1440.jpg");
+    background-attachment: fixed;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#gamezone{
+    border: 1px solid black;
+    background-color: rgb(45, 84, 43);
+    height: 350px;
+    width: 650px;
+}
+
+.character{
+    background-color: rgb(45, 84, 43);
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+
+    background-image: url("kust.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: none;
+}
+
+.sniper{
+    background-image: url("sniper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 30px;
+    color: wheat;
+    margin-bottom: 30px;
+    background-color: rgb(45, 84, 43);
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: rgb(21, 14, 82);
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    text-shadow: 0px 2px 2px rgb(83, 78, 78);
+}
+
+
+
+
+
